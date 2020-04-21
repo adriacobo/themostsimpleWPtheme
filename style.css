@@ -1,12 +1,23 @@
-/*!
-Theme Name:   Nombre del tema
-Theme URI:    URL donde descargarlo o documentación
-Author:       Autor
-Author URI:   URL del autor
-Description:  Descripción que leeran los usuarios
-Version:      X.X.X
-License:      GNU General Public License v2 or later
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  campodetraduccion
-Tags:
+/*
+Theme Name: Prueba Mowomo
+Theme URI: https://mowomo.com
+Author: Adrián Cobo
+Author URI: https://grafreak.net
+Description: Tema para evento mowomo
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: mowomo
+Tags: molon, superchulo, basic
 */
+
+.navbar-expand-lg .navbar-collapse { justify-content: space-between; }
+
+.navbar-nav li a {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.footer { text-align: center;}
+.footer nav ul { list-style: none; text-align: center; padding-left:0;}
+.footer nav ul li { display: inline-block;  }
